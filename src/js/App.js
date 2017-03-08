@@ -20,11 +20,12 @@ class App extends Component {
   		  },
   		]
   	}
-  }	
+  }
   render() {
     return (
      <div style={{textAlign: 'center'}}>
         <Projects projects={this.state.projects} />
+        
       </div>);
   }
 }
