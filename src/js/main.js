@@ -1,5 +1,8 @@
-'use strict'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.js';
 
-document.addEventListener('DOMContentLoaded', (e) => {
-	console.log('Hello world!');
-});
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+);
